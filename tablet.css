@@ -1,0 +1,238 @@
+
+/* Small devices (tablet) */
+@media (max-width: 768px) {
+  
+  .hero {
+    height: 70vh;
+    background-position: center;
+  }
+
+  .hero-content {
+    flex-direction: row;
+    margin: 80px 50px;
+    font-size: 1.6rem;
+    text-align: left;
+  }
+
+  #navbar {
+    flex-direction: row;
+    height: auto;
+    padding: 10px;
+  }
+
+  #navbar ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .comp {
+    left: 0;
+    justify-content: center;
+  }
+.comp p{
+  font-size: 1rem;
+}
+  .container {
+    flex-direction: row;
+    
+  }
+
+  .service-slider {
+    margin: 0 20px;
+    padding: 10px 0;
+    
+  }
+
+  .trainer-grid
+   {
+    margin: 0 20px;
+     grid-template-rows: 1/3fr;
+    display: flex;
+  
+    align-items: center;
+ 
+   
+  }
+
+  .trainer-card {
+    
+   
+    width: 80%;
+  
+   height: 60%;
+  }
+  .trainer-card img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+.trainer-card h2 {
+  font-size: 1rem;
+  margin-top: 14px ;
+  color: #b22222;
+  font-family: cursive;
+
+}
+
+.trainer-card .spec {
+  font-size: 0.6rem;
+  color: #ffffff;
+  font-family: cursive;
+  
+}
+ .importance{
+  flex-direction: row;
+  height: 60%;
+}
+.importance img{
+  width: 100%;
+  height: 100%;
+}
+.importance h3{
+  font-size: 0.8rem;
+}
+.importance h1{
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+.acout{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about  li{
+  font-size: 0.6rem;
+}
+
+
+
+  .destination-section{
+    flex-direction: row;
+    height: 60%;
+   
+
+  }
+  .left-desti{
+    margin-left: 15px;
+    
+  }
+   .left-desti h1{
+    font-size: 1.8rem;
+  
+  }
+  .left-desti h3{
+font-size: 1.6rem;
+  }
+ .left-desti p{
+  font-size: 0.8rem;
+  font-family: cursive;
+ }
+ .right-desti img{
+  max-width: 90%;
+  height: auto;
+ }
+
+
+  .offer-section{
+    flex-direction: rows;
+    height: 60%;
+  }
+
+  .left-offer img{
+    max-width: 80%;
+  
+  }
+  
+
+  .right-offer h1{
+    font-size: 1.4rem;
+  
+  }
+
+.member-section{
+  height: 60%;
+  
+}
+.member-section h1{
+  font-size: 2rem;
+}
+.member-section p{
+  font-size: 1rem;
+  font-family: cursive;
+}
+.sub{
+  font-family: cursive;
+  font-size: 1rem;
+}
+
+.member-grid{
+    margin: 0 0;
+   gap: 30px;
+    grid-template-columns: 1fr;
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+}
+.member-card{
+    
+    width: 80%;
+  
+   height: 60%;
+}
+ .feature li{
+      display: block;
+    margin: 0px auto;
+    text-align: left;
+}
+ 
+ 
+
+
+
+  .contact-section {
+    flex-direction: row;
+    gap: 20px;
+    margin: 0 20px;
+  }
+
+  .contact-form {
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+  }
+
+  
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-second img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer-second h1 {
+    font-size: 1.4rem;
+  }
+
+  .footer-third,
+  .footer-fourth {
+    margin: 10px 0;
+  }
+
+  
+
+  .btn,
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    font-size: 1rem;
+    padding: 8px 20px;
+    margin: 10px auto;
+  }
+}
